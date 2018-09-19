@@ -1,0 +1,23 @@
+{
+  "name": "task-15-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwona-szerszen/task-15-7.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwona-szerszen/task-15-7/issues"
+  },
+  "homepage": "https://github.com/iwona-szerszen/task-15-7#readme",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
