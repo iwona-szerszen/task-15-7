@@ -1,3 +1,4 @@
+/*
 const pad0 = value => {
 	let result = value.toString();
 	if (result.length < 2) {
@@ -12,7 +13,7 @@ class Stopwatch {
 		this.results = [];
 		this.display = display;
 		this.reset();
-		this.print(this.times);
+		this.print();
 	}
 
 	reset() {
@@ -92,3 +93,6 @@ resetTimerButton.addEventListener('click', () => stopwatch.resetTimer());
 
 let resetResultsButton = document.getElementById('reset-results');
 resetResultsButton.addEventListener('click', () => stopwatch.resetResults());
+*/
+
+ReactDOM.render(<Stopwatch />, document.getElementById('app'));
