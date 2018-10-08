@@ -31,7 +31,7 @@ a {
 }
 
 .controls a:active,
-#reset-results:active {
+.reset-results:active {
 	color: #fff;
 }
 
@@ -42,7 +42,7 @@ a {
 }
 
 .list-header,
-#results {
+.results-list {
 	padding-top: 15px;
 	background-color: #809daa;
 	width: 250px;
@@ -54,14 +54,14 @@ a {
 	font-size: 18px;
 }
 
-#reset-results {
+.reset-results {
 	font-size: 15px;
 	display: block;
 	text-align: right;
 	padding-right: 22px;
 }
 
-.result-list {
+.results-list {
 	margin: 0 auto;
 }
 
